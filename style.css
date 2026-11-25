@@ -11,6 +11,7 @@
   --orange: #d97706;
   --orange-light: #fff3d6;
   --red: #dc2626;
+  --red-dark: #5a0b0b;
   --red-light: #fee8e8;
   --line: #dce3ed;
   --muted: #718096;
@@ -235,6 +236,7 @@ button { cursor: pointer; }
 .stat-icon.green { background: var(--green-light); color: var(--green); }
 .stat-icon.orange { background: var(--orange-light); color: var(--orange); }
 .stat-icon.red { background: var(--red-light); color: var(--red); }
+.stat-icon.red-dark { background: var(--red-light); color: var(--red-dark); }
 
 .content-grid {
   display: grid;

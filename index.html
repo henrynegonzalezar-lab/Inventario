@@ -72,11 +72,11 @@
           <strong id="statUnits">0</strong><small>Existencias actuales</small>
         </article>
         <article class="stat-card">
-          <div class="stat-head"><span>Stock bajo / agotado</span><span class="stat-icon orange">!</span></div>
+          <div class="stat-head"><span>Stock bajo / agotado</span><span class="stat-icon red">!</span></div>
           <strong id="statLow">0</strong><small>Requieren reposición</small>
         </article>
         <article class="stat-card">
-          <div class="stat-head"><span>Vencidos</span><span class="stat-icon red">⌛</span></div>
+          <div class="stat-head"><span>Vencidos</span><span class="stat-icon red-dark">⌛</span></div>
           <strong id="statExpired">0</strong><small>Revisar inmediatamente</small>
         </article>
       </div>
@@ -88,9 +88,9 @@
             <button class="text-btn" data-go="products">Ver productos →</button>
           </div>
           <div class="status-list">
-            <div class="status-row"><span class="status-dot dot-red"></span><span>Agotado</span><strong id="countOut">0</strong></div>
-            <div class="status-row"><span class="status-dot dot-orange"></span><span>Stock bajo / reposición</span><strong id="countLow">0</strong></div>
-            <div class="status-row"><span class="status-dot dot-green"></span><span>Stock normal</span><strong id="countNormal">0</strong></div>
+            <div class="status-row"><span class="status-dot dot-red-dark"></span><span>Agotado</span><strong id="countOut">0</strong></div>
+            <div class="status-row"><span class="status-dot dot-red"></span><span>Stock bajo / reposición</span><strong id="countLow">0</strong></div>
+            <div class="status-row"><span class="status-dot dot-green"></span><span>Punto de reorden</span><strong id="countNormal">0</strong></div>
             <div class="status-row"><span class="status-dot dot-blue"></span><span>Sobre el máximo</span><strong id="countOver">0</strong></div>
           </div>
         </section>
@@ -138,7 +138,7 @@
           <option value="all">Todos los estados</option>
           <option value="out">Agotado</option>
           <option value="low">Stock mínimo</option>
-          <option value="reorder">Punto de reposición</option>
+          <option value="reorder">Punto de reorden</option>
           <option value="normal">Stock óptimo</option>
           <option value="over">Sobrestock</option>
           <option value="rotation">Baja rotación</option>

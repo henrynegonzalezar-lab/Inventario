@@ -1092,7 +1092,7 @@ document.getElementById("exportBtn").addEventListener("click", () => {
 
 document.getElementById("backupBtn").addEventListener("click", () => {
   const backup = {
-    application: "Inventario ECCI",
+    application: "Inventario",
     version: 2,
     createdAt: new Date().toISOString(),
     products,
